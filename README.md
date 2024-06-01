@@ -12,4 +12,4 @@ After Effects,
 CSS,
 HTML 5,
 C Language,
-C++ Language,
+C++ Language
