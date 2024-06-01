@@ -1,0 +1,113 @@
+.contact-section {
+    background-color: #f8f9fa; /* Light grey background */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .contact-info-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .contact-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .title {
+    margin-bottom: 20px;
+  }
+body{
+    background-color: beige;
+}
+h1{
+    text-align: center;
+}
+.nav-link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.img-thumbnail{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%;
+        height: 15%;
+}
+.center{
+    margin: 0;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.icon{
+    display: block;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
+}
+h2{
+    text-align:center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px yellow;
+}
+.card {
+    height: 100%;
+    transform: scale(0.9); 
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .card-title {
+    display: flex;
+    align-items: center;
+  }
+  .card-body h3 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  .mb-2 {
+    display: flex;
+    align-items: center;
+  }
+  .article {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+
+  .contact-section {
+    background-color: #f8f9fa; /* Light grey background */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .contact-info-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .contact-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .title {
+    margin-bottom: 20px;
+  }
+.section__text__p1{
+    text-align: center;
+}
+.contact-info-container{
+text-align: center;
+}
+.blockquote{
+    text-align: center;
+
+}
