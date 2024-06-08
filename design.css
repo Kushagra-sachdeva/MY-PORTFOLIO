@@ -1,5 +1,5 @@
 .contact-section {
-    background-color: #f8f9fa; /* Light grey background */
+    background-color: #f8f9fa; 
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -48,8 +48,10 @@ h1{
     width: 15%;
     height: 15%;
 }
-.Exp{
+h2{
     text-align:center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px yellow;
 }
 .card {
     height: 100%;
@@ -77,11 +79,8 @@ h1{
     display: flex;
     flex-direction: column;
   }
-  
-
-
   .contact-section {
-    background-color: #f8f9fa; /* Light grey background */
+    background-color: #f8f9fa; 
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
