@@ -48,10 +48,8 @@ h1{
     width: 15%;
     height: 15%;
 }
-h2{
+.Exp{
     text-align:center;
-    text-decoration: underline;
-    text-shadow: 2px 2px 5px yellow;
 }
 .card {
     height: 100%;
