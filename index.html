@@ -4,7 +4,7 @@
   <title>My Portfolio</title> 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <link rel="stylesheet" href="design.css">
@@ -54,15 +54,15 @@
   </nav>
 </div>
 <section>
-  <div id="About" class="d-flex">
-    <div class="left-section">
+  <div id="About" class="d-flex flex-column flex-md-row align-items-center">
+    <div class="left-section text-center text-md-start">
       <div id="left"> <i>Hi, My name is <span class="violet"> Kushagra </span> </i>
         <div id="left"><i>and I am a </i></div>
         <span id="element"></span>
       </div>
     </div>
-    <div class="right-section">
-      <img src="asset/deve.png" id="right" width="500" height="500" class="right-image">
+    <div class="right-section text-center">
+      <img src="asset/deve.png" id="right" class="img-fluid right-image">
     </div>
   </div>
 </section>
@@ -71,19 +71,18 @@
       strings: ['<i> passionate Web Developer.</i>', '&amp;<i> a proficient Coder.</i>'],
       typeSpeed: 50,
     });
-  </script>
-</div>
+</script>
   
 <br>
 <div>
-  <h2 id="About-me">ABOUT ME</h2>
+  <h2 id="About-me" class="text-center">ABOUT ME</h2>
   <br>
   <br>
-  <div class="about-container">
-      <div class="left-section">
+  <div class="about-container d-flex flex-column flex-md-row align-items-center">
+      <div class="left-section text-center">
           <img src="asset/k.jpeg" alt="Kushagra" class="rounded-circle" id="myimg" width="250" height="250">
       </div>
-      <div class="right-section">
+      <div class="right-section text-center text-md-start">
           <p id="introduction">Hi, I am Kushagra Sachdeva, a passionate Web Developer and a proficient Coder. I am currently pursuing my B.Tech in Computer Science and Engineering from <b>S.R.M University of Science and Technology.</b> I am a self-taught developer and have a keen interest in learning new technologies. I have a good understanding of Frontend and Backend technologies. I am also a music producer and have a good understanding of multimedia tools like FL Studio, Adobe After Effects, and Adobe Photoshop. I am a quick learner and always ready to take on new challenges. I am looking for opportunities to work in a challenging environment that will help me grow as a developer.</p>
       </div>
   </div>
@@ -94,11 +93,10 @@
       <a href="#contact" class="btn btn-light active mx-2">Contact</a>
   </div>
 </div>
-</div>
 <br>
 <br>
 <br>
-<h2 id="Experience" class="Exp"> MY EXPERIENCE </h2>
+<h2 id="Experience" class="text-center Exp"> MY EXPERIENCE </h2>
 <div class="container-fluid mt-3">
   <div class="row">
     <div class="col-lg-4 col-md-6 mb-3 d-flex align-items-stretch">
@@ -188,7 +186,7 @@
               <a href="https://www.adobe.com/in/products/aftereffects.html" target="_blank" rel="noopener noreferrer">
                 <h3> AFTER EFFECTS</h3>
               </a>
-              </div>
+            </div>
             <div class="mb-2">
               <img src="asset/Photoshop.png" alt="PHOTOSHOP" class="icon">
               <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener noreferrer">
@@ -201,29 +199,29 @@
       </div>
     </div>
   </div>
-  
+</div>
 
 <section id="contact" class="container my-5 contact-section">
-    <p class="section__text__p1">Get in Touch</p>
-    <h1 class="title">Contact Me</h1>
-    <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-            <img src="asset/gmail.png" alt="Email icon" class="icon contact-icon email-icon">
-            <p><a href="mailto:sachdevak806@gmail.com">sachdevak806@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-            <img src="asset/linkedin.webp" alt="LinkedIn icon" class="icon contact-icon">
-            <p><a href="https://www.linkedin.com/in/kushagra-sachdeva-32519b238/">Kushagra-sachdeva</a></p>
-        </div>
-        <div class="contact-info-container">
-            <img src="asset/instagram.webp" alt="Insta icon" class="icon contact-icon">
-            <p><a href="https://www.instagram.com/kushu_6705/">@kushu_6705</a></p>
-        </div>
+  <p class="section__text__p1 text-center">Get in Touch</p>
+  <h1 class="title text-center">Contact Me</h1>
+  <div class="contact-info-upper-container d-flex flex-column flex-md-row align-items-center justify-content-around">
+    <div class="contact-info-container text-center">
+      <img src="asset/gmail.png" alt="Email icon" class="icon contact-icon email-icon">
+      <p><a href="mailto:sachdevak806@gmail.com">sachdevak806@gmail.com</a></p>
     </div>
+    <div class="contact-info-container text-center">
+      <img src="asset/linkedin.webp" alt="LinkedIn icon" class="icon contact-icon">
+      <p><a href="https://www.linkedin.com/in/kushagra-sachdeva-32519b238/">Kushagra-sachdeva</a></p>
+    </div>
+    <div class="contact-info-container text-center">
+      <img src="asset/instagram.webp" alt="Insta icon" class="icon contact-icon">
+      <p><a href="https://www.instagram.com/kushu_6705/">@kushu_6705</a></p>
+    </div>
+  </div>
 </section>
 
-<blockquote class="blockquote">“Technology makes what was once impossible possible. The design makes it real.”<br> 
-  <br>  
+<blockquote class="blockquote text-center">“Technology makes what was once impossible possible. The design makes it real.”<br>
+  <br>
   <footer class="blockquote-footer">Michael Gagliano</footer>
 </blockquote>
 </body>
