@@ -133,6 +133,7 @@ text-align: center;
   font-size: 50px;
   padding-left: 94px;
   color: white;
+  text-align: center;
 }
 #About{
   color: white;
@@ -164,3 +165,8 @@ text-align: center;
 .vio{
   color: violet;
 }
+@media (max-width: 576px) {
+  .left-section {
+    text-align: center !important;
+  }
+
