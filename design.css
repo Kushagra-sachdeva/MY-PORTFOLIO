@@ -1,41 +1,27 @@
-.contact-section {
-  
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-.contact-info-container {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-.contact-icon {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-}
-.title {
-  margin-bottom: 20px;
-}
-body{
+body {
   background-color: rgb(4, 4, 34);
 }
-h1{
+
+h1, h2 {
   text-align: center;
+  color: white;
 }
-.nav-link{
+
+.nav-link {
   font-family: 'Times New Roman', Times, serif;
   font-size: 30px;
   color: white;
 }
-.img-thumbnail{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 15%;
-      height: 15%;
+
+.img-thumbnail {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: 15%;
 }
-.center{
+
+.center {
   margin: 0;
   position: absolute;
   top: 95%;
@@ -43,75 +29,78 @@ h1{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.icon{
-  display: block;
-  margin-right: auto;
-  width: 15%;
-  height: 15%;
-}
-h2{
-  text-align:center;
-  color: white;
-}
-.card {
-  height: 100%;
-  transform: scale(0.9); 
-}
+
 .icon {
   width: 30px;
   height: 30px;
   margin-right: 10px;
 }
+
+.card {
+  height: 100%;
+  transform: scale(0.9); 
+}
+
 .card-title {
   display: flex;
   align-items: center;
 }
+
 .card-body h3 {
   display: inline-block;
   margin: 0;
   padding: 0;
 }
+
 .mb-2 {
   display: flex;
   align-items: center;
 }
+
 .article {
   display: flex;
   flex-direction: column;
 }
-.contact-section {
 
+.contact-section {
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
 .contact-info-container {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
+
 .contact-icon {
   width: 30px;
   height: 30px;
   margin-right: 10px;
 }
+
 .title {
   margin-bottom: 20px;
 }
-.section__text__p1{
-  text-align: center;
-}
-.contact-info-container{
-text-align: center;
-}
-.blockquote{
-  text-align: center;
 
+.section__text__p1 {
+  text-align: center;
 }
-#developer{
+
+.contact-info-container {
+  text-align: center;
+}
+
+.blockquote {
+  text-align: center;
+}
+
+#developer {
   background-color: rgb(4, 4, 34);
   background-size: cover;
 }
+
 .right-section {
   flex: 1;
   display: flex;
@@ -135,91 +124,68 @@ text-align: center;
   color: white;
   text-align: center;
 }
-#About{
-  color: white;
-}
-#introduction{
-  color: white;
-  font-size: larger;
-}
-#myimage{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.about-container {
-  display: flex;
-  padding-right: 200px;  
-}
-#buttons{
-  display: flex;
-  justify-content: center;
-  padding-left: 10px;
-}
-#contact{
-  color: white;
-}
-.violet{
-  color: violet;
-}
-.vio{
-  color: violet;
-}
-@media (max-width: 576px) {
-  .left-section {
-    text-align: center !important;
-  }
-  @media (max-width: 576px) {
- .about-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
 
-.about-container .left-section {
-  margin-bottom: 20px;
+#About {
+  color: white;
 }
 
 #introduction {
+  color: white;
+  font-size: larger;
   border: 1px solid #ccc;
   padding: 15px;
   border-radius: 5px;
 }
 
-@media (min-width: 577px) {
+#myimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-container {
+  display: flex;
+  padding-right: 200px;  
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+#contact {
+  color: white;
+}
+
+.violet {
+  color: violet;
+}
+
+.vio {
+  color: violet;
+}
+
+@media (max-width: 576px) {
   .about-container {
     display: flex;
-    flex-direction: row;
-    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-right: 0;
   }
 
   .about-container .left-section {
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    padding-left: 0;
   }
 
-  .about-container .right-section {
-    text-align: left;
-  }
-}
-
-@media (max-width: 576px) {
   .about-container .right-section {
     width: 90%;
   }
-}
 
-.about-container-mobile {
-  display: none;
-}
-
-@media (max-width: 576px) {
-  .about-container {
-    display: none;
-  }
-
-  .about-container-mobile {
-    display: block;
+  #introduction {
+    width: 100%;
+    box-sizing: border-box;
   }
 }
-
