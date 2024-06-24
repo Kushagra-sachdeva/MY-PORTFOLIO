@@ -170,19 +170,42 @@ text-align: center;
     text-align: center !important;
   }
   @media (max-width: 576px) {
+ .about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-container .left-section {
+  margin-bottom: 20px;
+}
+
+#introduction {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+@media (min-width: 577px) {
   .about-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    flex-direction: row;
+    text-align: left;
   }
 
   .about-container .left-section {
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
 
   .about-container .right-section {
-    width: 100%;
+    text-align: left;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-container .right-section {
+    width: 90%;
   }
 }
 
