@@ -1,0 +1,60 @@
+@media only screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+    .navbar-brand {
+      margin-bottom: 10px;
+    }
+    .navbar-toggler {
+      margin-top: 10px;
+    }
+    .navbar-nav {
+      flex-direction: column;
+    }
+    .nav-item {
+      margin-bottom: 10px;
+    }
+    #About {
+      flex-direction: column;
+    }
+    .left-section {
+      margin-bottom: 20px;
+    }
+    .right-section {
+      text-align: center;
+    }
+    .right-image {
+      width: 100%;
+      height: auto;
+    }
+    .about-container-mobile {
+      flex-direction: column;
+    }
+    .left-section {
+      margin-bottom: 20px;
+    }
+    .right-section {
+      text-align: center;
+    }
+    #myimg {
+      width: 100%;
+      height: auto;
+    }
+    .card {
+      margin-bottom: 20px;
+    }
+    .card-body {
+      padding: 10px;
+    }
+    .icon {
+      width: 30px;
+      height: 30px;
+    }
+    .contact-info-upper-container {
+      flex-direction: column;
+    }
+    .contact-info-container {
+      margin-bottom: 20px;
+    }
+  }
