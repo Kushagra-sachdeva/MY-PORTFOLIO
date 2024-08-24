@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Kushagra Sachdeva</h1>
-<h3 align="center">A passionate frontend developer and a student at SRM UNIVERSITY, CHENNAI </h3>
+<h3 align="center">A passionate Full Stack Developer and a student at SRM UNIVERSITY, CHENNAI </h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
